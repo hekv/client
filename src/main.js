@@ -8,6 +8,9 @@ import App from "./App.vue";
 // - Default layout
 import Default from "./layouts/Default.vue";
 Vue.component("default-layout", Default);
+// - Blank layout
+import Blank from "./layouts/Blank.vue";
+Vue.component("blank-layout", Blank);
 
 // Bootstrap initiations
 import "bootstrap/dist/css/bootstrap.css";
