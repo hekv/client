@@ -8,6 +8,11 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./stores";
 
+// Custom plugin initiation
+import AxiosHero from "./plugins/AxiosHero";
+import heroConfig from "./plugins/AxiosHero/config";
+Vue.use(AxiosHero, heroConfig);
+
 // Layouts initiations
 // - Default layout
 import Default from "./layouts/Default.vue";
