@@ -6,6 +6,7 @@ import App from "./App.vue";
 
 // vuex & vue-router initiations
 import router from "./router";
+import store from "./stores";
 
 // Layouts initiations
 // - Default layout
@@ -27,5 +28,6 @@ Vue.config.productionTip = false; // can be useful for a better production
 new Vue({
   el: "#app",
   render: (h) => h(App),
+  store,
   router,
 });
