@@ -4,6 +4,9 @@
 import Vue from "vue";
 import App from "./App.vue";
 
+// vuex & vue-router initiations
+import router from "./router";
+
 // Layouts initiations
 // - Default layout
 import Default from "./layouts/Default.vue";
@@ -24,4 +27,5 @@ Vue.config.productionTip = false; // can be useful for a better production
 new Vue({
   el: "#app",
   render: (h) => h(App),
+  router,
 });
