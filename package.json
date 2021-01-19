@@ -26,7 +26,7 @@
     "hekv"
   ],
   "dependencies": {
-    "axios": "^0.20.0",
+    "axios": "^0.21.1",
     "bootstrap": "^4.5.2",
     "bootstrap-vue": "^2.17.3",
     "chart.js": "^2.9.3",
